@@ -4,15 +4,57 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4dbb98a-788a-4ba0-9814-1a3f195e9a54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/pt/lzgpom/interview/textjustification/Solution.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/pt/lzgpom/interview/textjustification/SolutionTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+    <list default="true" id="b4dbb98a-788a-4ba0-9814-1a3f195e9a54" name="Changes" comment="completed text justification problem">
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/pt/lzgpom/interview/besttimetobuyandsellstock/Solution.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/pt/lzgpom/interview/besttimetobuyandsellstock2/Solution.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/pt/lzgpom/interview/candy/FirstSolution.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/pt/lzgpom/interview/candy/Solution.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/pt/lzgpom/interview/findtheindexofthfirstoccurrenceinastring/Solution.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/pt/lzgpom/interview/gasstation/Solution.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/pt/lzgpom/interview/hindex/Solution.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/pt/lzgpom/interview/integertoroman/Solution.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/pt/lzgpom/interview/jumpgame/Solution.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/pt/lzgpom/interview/jumpgame2/Solution.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/pt/lzgpom/interview/lengthoflastword/Solution.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/pt/lzgpom/interview/longestcommonprefix/Solution.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/pt/lzgpom/interview/majorityelement/Solution.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/pt/lzgpom/interview/mergesortedarray/Solution.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/pt/lzgpom/interview/productofarrayexceptself/Solution.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/pt/lzgpom/interview/randomizedseto1/RandomizedSet.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/pt/lzgpom/interview/randomizedseto1/RandomizedSetEasy.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/pt/lzgpom/interview/removeduplicatesfromsortedarray/Solution.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/pt/lzgpom/interview/removeduplicatesfromsortedarray2/Solution.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/pt/lzgpom/interview/removeelement/Solution.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/pt/lzgpom/interview/reversewordsinstring/Solution.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/pt/lzgpom/interview/romantointeger/Solution.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/pt/lzgpom/interview/rotatearray/Solution.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/pt/lzgpom/interview/textjustification/Solution.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/pt/lzgpom/interview/trappingrainwater/Solution.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/pt/lzgpom/interview/zigzagconversion/Solution.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/pt/lzgpom/interview/besttimetobuyandsellstock/SolutionTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/pt/lzgpom/interview/besttimetobuyandsellstock2/SolutionTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/pt/lzgpom/interview/candy/SolutionTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/pt/lzgpom/interview/findtheindexofthfirstoccurrenceinastring/SolutionTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/pt/lzgpom/interview/gasstation/SolutionTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/pt/lzgpom/interview/hindex/SolutionTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/pt/lzgpom/interview/integertoroman/SolutionTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/pt/lzgpom/interview/jumpgame/SolutionTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/pt/lzgpom/interview/jumpgame2/SolutionTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/pt/lzgpom/interview/lengthoflastword/SolutionTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/pt/lzgpom/interview/longestcommonprefix/SolutionTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/pt/lzgpom/interview/majorityelement/SolutionTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/pt/lzgpom/interview/mergesortedarray/SolutionTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/pt/lzgpom/interview/productofarrayexceptself/SolutionTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/pt/lzgpom/interview/randomizedseto1/RandomizedSetTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/pt/lzgpom/interview/removeduplicatesfromsortedarray/SolutionTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/pt/lzgpom/interview/removeduplicatesfromsortedarray2/SolutionTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/pt/lzgpom/interview/removeelement/SolutionTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/pt/lzgpom/interview/reversewordsinstring/SolutionTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/pt/lzgpom/interview/romantointeger/SolutionTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/pt/lzgpom/interview/rotatearray/SolutionTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/pt/lzgpom/interview/textjustification/SolutionTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/pt/lzgpom/interview/trappingrainwater/SolutionTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/pt/lzgpom/interview/zigzagconversion/SolutionTest.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +81,9 @@
     "accountId": "04ca12cc-1ad4-43e3-869a-7d9fd74e7fea"
   }
 }]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "customColor": "",
   "associatedIndex": 6
@@ -50,6 +95,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.Build leetcode.executor": "Run",
     "Gradle.SolutionTest.executor": "Run",
     "Gradle.SolutionTest.testWithExample.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -141,11 +187,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715547004220</updated>
-      <workItem from="1715547005541" duration="3617000" />
+      <workItem from="1715547005541" duration="4175000" />
     </task>
+    <task id="LOCAL-00001" summary="completed text justification problem">
+      <option name="closed" value="true" />
+      <created>1715551046153</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715551046153</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="completed text justification problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed text justification problem" />
   </component>
 </project>
