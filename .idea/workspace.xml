@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4dbb98a-788a-4ba0-9814-1a3f195e9a54" name="Changes" comment="completed two sum problem 2 with sorted array problem">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/pt/lzgpom/interview/slidingwindow/minimumwindowsubstring/Solution.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/pt/lzgpom/interview/slidingwindow/minimumwindowsubstring/SolutionTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="b4dbb98a-788a-4ba0-9814-1a3f195e9a54" name="Changes" comment="completed minimum window substring problem">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/pt/lzgpom/interview/matrix/Solution.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/pt/lzgpom/interview/matrix/SolutionTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,6 +74,7 @@
     "Gradle.SolutionTest (4).executor": "Run",
     "Gradle.SolutionTest (5).executor": "Run",
     "Gradle.SolutionTest.executor": "Run",
+    "Gradle.SolutionTest.testWithExample (1).executor": "Debug",
     "Gradle.SolutionTest.testWithExample.executor": "Debug",
     "Gradle.SolutionTest.testWithExample2.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -101,62 +101,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="pt.lzgpom.interview.matrix" />
       <recent name="pt.lzgpom.interview.slidingwindow.minimumwindowsubstring" />
       <recent name="pt.lzgpom.interview.twopointers.containerwithmostwater" />
       <recent name="pt.lzgpom.interview.twopointers.twosum2sorted" />
       <recent name="pt.lzgpom.interview.twopointers.issubsequence" />
-      <recent name="pt.lzgpom.interview.twopointers.validpalindrome" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SolutionTest (5)">
-    <configuration name="SolutionTest (3)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;pt.lzgpom.interview.twopointers.twosum2sorted.SolutionTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="SolutionTest (4)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;pt.lzgpom.interview.twopointers.containerwithmostwater.SolutionTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.SolutionTest">
     <configuration name="SolutionTest (5)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -171,6 +123,54 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;pt.lzgpom.interview.slidingwindow.minimumwindowsubstring.SolutionTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="SolutionTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;pt.lzgpom.interview.matrix.SolutionTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="SolutionTest.testWithExample (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;pt.lzgpom.interview.matrix.SolutionTest.testWithExample&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -231,11 +231,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SolutionTest" />
+        <item itemvalue="Gradle.SolutionTest.testWithExample (1)" />
         <item itemvalue="Gradle.SolutionTest (5)" />
         <item itemvalue="Gradle.SolutionTest.testWithExample" />
         <item itemvalue="Gradle.SolutionTest.testWithExample2" />
-        <item itemvalue="Gradle.SolutionTest (4)" />
-        <item itemvalue="Gradle.SolutionTest (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +256,7 @@
       <option name="presentableId" value="Default" />
       <updated>1715547004220</updated>
       <workItem from="1715547005541" duration="9384000" />
-      <workItem from="1716490216226" duration="3494000" />
+      <workItem from="1716490216226" duration="6611000" />
     </task>
     <task id="LOCAL-00001" summary="completed text justification problem">
       <option name="closed" value="true" />
@@ -298,7 +298,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715556641232</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="completed minimum window substring problem">
+      <option name="closed" value="true" />
+      <created>1716493951684</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1716493951684</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,6 +318,7 @@
     <MESSAGE value="completed valid palindrome problem" />
     <MESSAGE value="completed is subsequence problem" />
     <MESSAGE value="completed two sum problem 2 with sorted array problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed two sum problem 2 with sorted array problem" />
+    <MESSAGE value="completed minimum window substring problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed minimum window substring problem" />
   </component>
 </project>
