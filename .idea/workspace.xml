@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4dbb98a-788a-4ba0-9814-1a3f195e9a54" name="Changes" comment="completed valid palindrome problem">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/pt/lzgpom/interview/twopointers/issubsequence/Solution.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/pt/lzgpom/interview/twopointers/issubsequence/SolutionTest.kt" afterDir="false" />
+    <list default="true" id="b4dbb98a-788a-4ba0-9814-1a3f195e9a54" name="Changes" comment="completed two sum problem 2 with sorted array problem">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/pt/lzgpom/interview/slidingwindow/minimumwindowsubstring/Solution.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/pt/lzgpom/interview/slidingwindow/minimumwindowsubstring/SolutionTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +19,16 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -30,25 +42,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Lzgpom"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Lzgpom&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Lzgpom/leetcode.git",
-    "accountId": "04ca12cc-1ad4-43e3-869a-7d9fd74e7fea"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Lzgpom/leetcode.git&quot;,
+    &quot;accountId&quot;: &quot;04ca12cc-1ad4-43e3-869a-7d9fd74e7fea&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="ProjectErrors" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2gNnf3yi7zoCAw65fUcEHGEmmhZ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -59,8 +71,12 @@
     "Gradle.Build leetcode.executor": "Run",
     "Gradle.SolutionTest (1).executor": "Run",
     "Gradle.SolutionTest (2).executor": "Run",
+    "Gradle.SolutionTest (3).executor": "Run",
+    "Gradle.SolutionTest (4).executor": "Run",
+    "Gradle.SolutionTest (5).executor": "Run",
     "Gradle.SolutionTest.executor": "Run",
-    "Gradle.SolutionTest.testWithExample.executor": "Run",
+    "Gradle.SolutionTest.testWithExample.executor": "Debug",
+    "Gradle.SolutionTest.testWithExample2.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
@@ -85,12 +101,15 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="pt.lzgpom.interview.slidingwindow.minimumwindowsubstring" />
+      <recent name="pt.lzgpom.interview.twopointers.containerwithmostwater" />
+      <recent name="pt.lzgpom.interview.twopointers.twosum2sorted" />
       <recent name="pt.lzgpom.interview.twopointers.issubsequence" />
       <recent name="pt.lzgpom.interview.twopointers.validpalindrome" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SolutionTest (2)">
-    <configuration name="SolutionTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.SolutionTest (5)">
+    <configuration name="SolutionTest (3)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -103,7 +122,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;pt.lzgpom.interview.twopointers.validpalindrome.SolutionTest&quot;" />
+            <option value="&quot;pt.lzgpom.interview.twopointers.twosum2sorted.SolutionTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -114,7 +133,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="SolutionTest (2)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SolutionTest (4)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -127,7 +146,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;pt.lzgpom.interview.twopointers.issubsequence.SolutionTest&quot;" />
+            <option value="&quot;pt.lzgpom.interview.twopointers.containerwithmostwater.SolutionTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -138,7 +157,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="SolutionTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SolutionTest (5)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -151,7 +170,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;pt.lzgpom.interview.textjustification.SolutionTest&quot;" />
+            <option value="&quot;pt.lzgpom.interview.slidingwindow.minimumwindowsubstring.SolutionTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -175,7 +194,31 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;pt.lzgpom.interview.textjustification.SolutionTest.testWithExample&quot;" />
+            <option value="&quot;pt.lzgpom.interview.slidingwindow.minimumwindowsubstring.SolutionTest.testWithExample&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="SolutionTest.testWithExample2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;pt.lzgpom.interview.slidingwindow.minimumwindowsubstring.SolutionTest.testWithExample2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -188,10 +231,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.SolutionTest (2)" />
-        <item itemvalue="Gradle.SolutionTest (1)" />
-        <item itemvalue="Gradle.SolutionTest" />
+        <item itemvalue="Gradle.SolutionTest (5)" />
         <item itemvalue="Gradle.SolutionTest.testWithExample" />
+        <item itemvalue="Gradle.SolutionTest.testWithExample2" />
+        <item itemvalue="Gradle.SolutionTest (4)" />
+        <item itemvalue="Gradle.SolutionTest (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +255,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715547004220</updated>
-      <workItem from="1715547005541" duration="5764000" />
+      <workItem from="1715547005541" duration="9384000" />
+      <workItem from="1716490216226" duration="3494000" />
     </task>
     <task id="LOCAL-00001" summary="completed text justification problem">
       <option name="closed" value="true" />
@@ -237,7 +282,23 @@
       <option name="project" value="LOCAL" />
       <updated>1715552659318</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="completed is subsequence problem">
+      <option name="closed" value="true" />
+      <created>1715553220940</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715553220940</updated>
+    </task>
+    <task id="LOCAL-00005" summary="completed two sum problem 2 with sorted array problem">
+      <option name="closed" value="true" />
+      <created>1715556641232</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1715556641232</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,6 +308,8 @@
     <MESSAGE value="completed text justification problem" />
     <MESSAGE value="moved string array problems to an appropriate package" />
     <MESSAGE value="completed valid palindrome problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed valid palindrome problem" />
+    <MESSAGE value="completed is subsequence problem" />
+    <MESSAGE value="completed two sum problem 2 with sorted array problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed two sum problem 2 with sorted array problem" />
   </component>
 </project>
