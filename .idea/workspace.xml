@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4dbb98a-788a-4ba0-9814-1a3f195e9a54" name="Changes" comment="completed minimum window substring problem">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/pt/lzgpom/interview/matrix/Solution.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/pt/lzgpom/interview/matrix/SolutionTest.kt" afterDir="false" />
+    <list default="true" id="b4dbb98a-788a-4ba0-9814-1a3f195e9a54" name="Changes" comment="completed valid sudoku problem">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/pt/lzgpom/interview/matrix/spiralmatrix/Solution.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/pt/lzgpom/interview/matrix/spiralmatrix/SolutionTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/pt/lzgpom/interview/matrix/Solution.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/pt/lzgpom/interview/matrix/validsoduku/Solution.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/pt/lzgpom/interview/matrix/SolutionTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/pt/lzgpom/interview/matrix/validsoduku/SolutionTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +77,7 @@
     "Gradle.SolutionTest (5).executor": "Run",
     "Gradle.SolutionTest.executor": "Run",
     "Gradle.SolutionTest.testWithExample (1).executor": "Debug",
+    "Gradle.SolutionTest.testWithExample (2).executor": "Debug",
     "Gradle.SolutionTest.testWithExample.executor": "Debug",
     "Gradle.SolutionTest.testWithExample2.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -100,16 +103,19 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="pt.lzgpom.interview.matrix.validsoduku" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="pt.lzgpom.interview.matrix.spiralmatrix" />
       <recent name="pt.lzgpom.interview.matrix" />
       <recent name="pt.lzgpom.interview.slidingwindow.minimumwindowsubstring" />
       <recent name="pt.lzgpom.interview.twopointers.containerwithmostwater" />
       <recent name="pt.lzgpom.interview.twopointers.twosum2sorted" />
-      <recent name="pt.lzgpom.interview.twopointers.issubsequence" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SolutionTest">
-    <configuration name="SolutionTest (5)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.SolutionTest.testWithExample2">
+    <configuration name="SolutionTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -122,7 +128,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;pt.lzgpom.interview.slidingwindow.minimumwindowsubstring.SolutionTest&quot;" />
+            <option value="&quot;pt.lzgpom.interview.matrix.spiralmatrix.SolutionTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -181,7 +187,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="SolutionTest.testWithExample" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SolutionTest.testWithExample (2)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -194,7 +200,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;pt.lzgpom.interview.slidingwindow.minimumwindowsubstring.SolutionTest.testWithExample&quot;" />
+            <option value="&quot;pt.lzgpom.interview.matrix.spiralmatrix.SolutionTest.testWithExample&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -218,7 +224,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;pt.lzgpom.interview.slidingwindow.minimumwindowsubstring.SolutionTest.testWithExample2&quot;" />
+            <option value="&quot;pt.lzgpom.interview.matrix.spiralmatrix.SolutionTest.testWithExample2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -231,11 +237,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SolutionTest.testWithExample2" />
+        <item itemvalue="Gradle.SolutionTest (1)" />
+        <item itemvalue="Gradle.SolutionTest.testWithExample (2)" />
         <item itemvalue="Gradle.SolutionTest" />
         <item itemvalue="Gradle.SolutionTest.testWithExample (1)" />
-        <item itemvalue="Gradle.SolutionTest (5)" />
-        <item itemvalue="Gradle.SolutionTest.testWithExample" />
-        <item itemvalue="Gradle.SolutionTest.testWithExample2" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +262,7 @@
       <option name="presentableId" value="Default" />
       <updated>1715547004220</updated>
       <workItem from="1715547005541" duration="9384000" />
-      <workItem from="1716490216226" duration="6611000" />
+      <workItem from="1716490216226" duration="9442000" />
     </task>
     <task id="LOCAL-00001" summary="completed text justification problem">
       <option name="closed" value="true" />
@@ -306,7 +312,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716493951684</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="completed valid sudoku problem">
+      <option name="closed" value="true" />
+      <created>1716497223945</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1716497223945</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,6 +333,10 @@
     <MESSAGE value="completed is subsequence problem" />
     <MESSAGE value="completed two sum problem 2 with sorted array problem" />
     <MESSAGE value="completed minimum window substring problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed minimum window substring problem" />
+    <MESSAGE value="completed valid sudoku problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed valid sudoku problem" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/leetcode$SolutionTest_testWithExample2.ic" NAME="SolutionTest.testWithExample2 Coverage Results" MODIFIED="1716499585153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
   </component>
 </project>

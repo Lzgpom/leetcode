@@ -1,4 +1,4 @@
-package pt.lzgpom.interview.matrix
+package pt.lzgpom.interview.matrix.validsoduku
 
 class Solution {
     fun isValidSudoku(board: Array<CharArray>): Boolean {

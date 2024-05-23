@@ -1,4 +1,4 @@
-package pt.lzgpom.interview.matrix
+package pt.lzgpom.interview.matrix.validsoduku
 
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Test
