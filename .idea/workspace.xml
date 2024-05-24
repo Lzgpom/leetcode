@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4dbb98a-788a-4ba0-9814-1a3f195e9a54" name="Changes" comment="completed is anagram problem">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/pt/lzgpom/interview/hashmap/groupanagrams/Solution.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/pt/lzgpom/interview/hashmap/groupanagrams/SolutionTest.kt" afterDir="false" />
+    <list default="true" id="b4dbb98a-788a-4ba0-9814-1a3f195e9a54" name="Changes" comment="completed group anagram problem">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/pt/lzgpom/interview/hashmap/twosum/Solution.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/pt/lzgpom/interview/hashmap/twosum/SolutionTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,14 +108,38 @@
       <recent name="pt.lzgpom.interview.matrix.validsoduku" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="pt.lzgpom.interview.hashmap.twosum" />
       <recent name="pt.lzgpom.interview.hashmap.groupanagrams" />
       <recent name="pt.lzgpom.interview.hashmap.validanagram" />
       <recent name="pt.lzgpom.interview.hashmap.wordpattern" />
       <recent name="pt.lzgpom.interview.hashmap.isomorphicstrings" />
-      <recent name="pt.lzgpom.interview.hashmap.ransomnote" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SolutionTest">
+  <component name="RunManager" selected="Gradle.SolutionTest (1)">
+    <configuration name="SolutionTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;pt.lzgpom.interview.hashmap.twosum.SolutionTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="SolutionTest (2)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -130,30 +154,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;pt.lzgpom.interview.hashmap.validanagram.SolutionTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="SolutionTest (4)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;pt.lzgpom.interview.hashmap.isomorphicstrings.SolutionTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -238,11 +238,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SolutionTest (1)" />
         <item itemvalue="Gradle.SolutionTest" />
         <item itemvalue="Gradle.SolutionTest.testHash" />
         <item itemvalue="Gradle.SolutionTest (2)" />
         <item itemvalue="Gradle.SolutionTest (5)" />
-        <item itemvalue="Gradle.SolutionTest (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -264,7 +264,7 @@
       <updated>1715547004220</updated>
       <workItem from="1715547005541" duration="9384000" />
       <workItem from="1716490216226" duration="21243000" />
-      <workItem from="1716556749781" duration="5178000" />
+      <workItem from="1716556749781" duration="5866000" />
     </task>
     <task id="LOCAL-00001" summary="completed text justification problem">
       <option name="closed" value="true" />
@@ -378,7 +378,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716558220814</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="completed group anagram problem">
+      <option name="closed" value="true" />
+      <created>1716562301572</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1716562301573</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -399,7 +407,8 @@
     <MESSAGE value="completed ransom note problem" />
     <MESSAGE value="completed word pattern problem" />
     <MESSAGE value="completed is anagram problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed is anagram problem" />
+    <MESSAGE value="completed group anagram problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed group anagram problem" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/leetcode$SolutionTest_testWithExample2.ic" NAME="SolutionTest.testWithExample2 Coverage Results" MODIFIED="1716499585153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
