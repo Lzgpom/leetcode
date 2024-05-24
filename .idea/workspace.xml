@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4dbb98a-788a-4ba0-9814-1a3f195e9a54" name="Changes" comment="completed valid sudoku problem">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/pt/lzgpom/interview/matrix/spiralmatrix/Solution.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/pt/lzgpom/interview/matrix/spiralmatrix/SolutionTest.kt" afterDir="false" />
+    <list default="true" id="b4dbb98a-788a-4ba0-9814-1a3f195e9a54" name="Changes" comment="completed ransom note problem">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/pt/lzgpom/interview/hashmap/wordpattern/Solution.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/pt/lzgpom/interview/hashmap/wordpattern/SolutionTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/pt/lzgpom/interview/matrix/Solution.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/pt/lzgpom/interview/matrix/validsoduku/Solution.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/pt/lzgpom/interview/matrix/SolutionTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/pt/lzgpom/interview/matrix/validsoduku/SolutionTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,38 +65,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.Build leetcode.executor": "Run",
-    "Gradle.SolutionTest (1).executor": "Run",
-    "Gradle.SolutionTest (2).executor": "Run",
-    "Gradle.SolutionTest (3).executor": "Run",
-    "Gradle.SolutionTest (4).executor": "Run",
-    "Gradle.SolutionTest (5).executor": "Run",
-    "Gradle.SolutionTest.executor": "Run",
-    "Gradle.SolutionTest.testWithExample (1).executor": "Debug",
-    "Gradle.SolutionTest.testWithExample (2).executor": "Debug",
-    "Gradle.SolutionTest.testWithExample.executor": "Debug",
-    "Gradle.SolutionTest.testWithExample2.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Build leetcode.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SolutionTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SolutionTest (2).executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SolutionTest (3).executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SolutionTest (4).executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SolutionTest (5).executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SolutionTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SolutionTest.testWithExample (1).executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.SolutionTest.testWithExample (2).executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.SolutionTest.testWithExample.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.SolutionTest.testWithExample2 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SolutionTest.testWithExample2.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.SolutionTest.testWithExample3.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "kotlin-gradle-user-dirs": [
-      "C:\\Users\\Pom\\.gradle"
+  &quot;keyToStringList&quot;: {
+    &quot;kotlin-gradle-user-dirs&quot;: [
+      &quot;C:\\Users\\Pom\\.gradle&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -107,14 +107,14 @@
       <recent name="pt.lzgpom.interview.matrix.validsoduku" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="pt.lzgpom.interview.matrix.spiralmatrix" />
-      <recent name="pt.lzgpom.interview.matrix" />
-      <recent name="pt.lzgpom.interview.slidingwindow.minimumwindowsubstring" />
-      <recent name="pt.lzgpom.interview.twopointers.containerwithmostwater" />
-      <recent name="pt.lzgpom.interview.twopointers.twosum2sorted" />
+      <recent name="pt.lzgpom.interview.hashmap.wordpattern" />
+      <recent name="pt.lzgpom.interview.hashmap.isomorphicstrings" />
+      <recent name="pt.lzgpom.interview.hashmap.ransomnote" />
+      <recent name="pt.lzgpom.interview.matrix.gameoflife" />
+      <recent name="pt.lzgpom.interview.matrix.setmatrixzeroes" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SolutionTest.testWithExample2">
+  <component name="RunManager" selected="Gradle.SolutionTest (5)">
     <configuration name="SolutionTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -128,7 +128,79 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;pt.lzgpom.interview.matrix.spiralmatrix.SolutionTest&quot;" />
+            <option value="&quot;pt.lzgpom.interview.matrix.gameoflife.SolutionTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="SolutionTest (3)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;pt.lzgpom.interview.hashmap.ransomnote.SolutionTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="SolutionTest (4)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;pt.lzgpom.interview.hashmap.isomorphicstrings.SolutionTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="SolutionTest (5)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;pt.lzgpom.interview.hashmap.wordpattern.SolutionTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -152,79 +224,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;pt.lzgpom.interview.matrix.SolutionTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="SolutionTest.testWithExample (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;pt.lzgpom.interview.matrix.SolutionTest.testWithExample&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="SolutionTest.testWithExample (2)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;pt.lzgpom.interview.matrix.spiralmatrix.SolutionTest.testWithExample&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="SolutionTest.testWithExample2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;pt.lzgpom.interview.matrix.spiralmatrix.SolutionTest.testWithExample2&quot;" />
+            <option value="&quot;pt.lzgpom.interview.matrix.setmatrixzeroes.SolutionTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -237,11 +237,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.SolutionTest.testWithExample2" />
+        <item itemvalue="Gradle.SolutionTest (5)" />
+        <item itemvalue="Gradle.SolutionTest (4)" />
+        <item itemvalue="Gradle.SolutionTest (3)" />
         <item itemvalue="Gradle.SolutionTest (1)" />
-        <item itemvalue="Gradle.SolutionTest.testWithExample (2)" />
         <item itemvalue="Gradle.SolutionTest" />
-        <item itemvalue="Gradle.SolutionTest.testWithExample (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -262,7 +262,8 @@
       <option name="presentableId" value="Default" />
       <updated>1715547004220</updated>
       <workItem from="1715547005541" duration="9384000" />
-      <workItem from="1716490216226" duration="9442000" />
+      <workItem from="1716490216226" duration="21243000" />
+      <workItem from="1716556749781" duration="866000" />
     </task>
     <task id="LOCAL-00001" summary="completed text justification problem">
       <option name="closed" value="true" />
@@ -320,7 +321,47 @@
       <option name="project" value="LOCAL" />
       <updated>1716497223945</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="completed spiral sudoku problem">
+      <option name="closed" value="true" />
+      <created>1716500021258</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1716500021258</updated>
+    </task>
+    <task id="LOCAL-00009" summary="completed rotate matrix problem">
+      <option name="closed" value="true" />
+      <created>1716505464280</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1716505464280</updated>
+    </task>
+    <task id="LOCAL-00010" summary="completed set matrix zeroes problem">
+      <option name="closed" value="true" />
+      <created>1716507738525</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1716507738525</updated>
+    </task>
+    <task id="LOCAL-00011" summary="completed game of life problem">
+      <option name="closed" value="true" />
+      <created>1716510089070</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1716510089070</updated>
+    </task>
+    <task id="LOCAL-00012" summary="completed ransom note problem">
+      <option name="closed" value="true" />
+      <created>1716511065475</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1716511065475</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,7 +375,12 @@
     <MESSAGE value="completed two sum problem 2 with sorted array problem" />
     <MESSAGE value="completed minimum window substring problem" />
     <MESSAGE value="completed valid sudoku problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed valid sudoku problem" />
+    <MESSAGE value="completed spiral sudoku problem" />
+    <MESSAGE value="completed rotate matrix problem" />
+    <MESSAGE value="completed set matrix zeroes problem" />
+    <MESSAGE value="completed game of life problem" />
+    <MESSAGE value="completed ransom note problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed ransom note problem" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/leetcode$SolutionTest_testWithExample2.ic" NAME="SolutionTest.testWithExample2 Coverage Results" MODIFIED="1716499585153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
