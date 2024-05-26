@@ -1,4 +1,4 @@
-package pt.lzgpom.interview.intervals
+package pt.lzgpom.interview.intervals.summaryranges
 
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Test

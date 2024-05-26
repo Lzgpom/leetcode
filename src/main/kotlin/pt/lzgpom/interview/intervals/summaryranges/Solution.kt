@@ -1,4 +1,4 @@
-package pt.lzgpom.interview.intervals
+package pt.lzgpom.interview.intervals.summaryranges
 
 class Solution {
     fun summaryRanges(nums: IntArray): List<String> {
