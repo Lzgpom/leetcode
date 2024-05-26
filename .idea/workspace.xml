@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4dbb98a-788a-4ba0-9814-1a3f195e9a54" name="Changes" comment="completed happy number problem">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/pt/lzgpom/interview/hashmap/containsduplicate2/Solution.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/pt/lzgpom/interview/hashmap/containsduplicate2/SolutionTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/pt/lzgpom/interview/hashmap/longestconsecutivesequence/Solution.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/pt/lzgpom/interview/hashmap/longestconsecutivesequence/SolutionTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,14 +108,14 @@
       <recent name="pt.lzgpom.interview.matrix.validsoduku" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="pt.lzgpom.interview.hashmap.longestconsecutivesequence" />
       <recent name="pt.lzgpom.interview.hashmap.containsduplicate2" />
       <recent name="pt.lzgpom.interview.hashmap.happynumber" />
       <recent name="pt.lzgpom.interview.hashmap.twosum" />
       <recent name="pt.lzgpom.interview.hashmap.groupanagrams" />
-      <recent name="pt.lzgpom.interview.hashmap.validanagram" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SolutionTest (2)">
+  <component name="RunManager" selected="Gradle.SolutionTest (4)">
     <configuration name="SolutionTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -188,7 +188,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="SolutionTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SolutionTest (4)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -201,7 +201,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;pt.lzgpom.interview.hashmap.groupanagrams.SolutionTest&quot;" />
+            <option value="&quot;pt.lzgpom.interview.hashmap.longestconsecutivesequence.SolutionTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -238,11 +238,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SolutionTest (4)" />
         <item itemvalue="Gradle.SolutionTest (2)" />
         <item itemvalue="Gradle.SolutionTest (3)" />
         <item itemvalue="Gradle.SolutionTest.testWithExample" />
         <item itemvalue="Gradle.SolutionTest (1)" />
-        <item itemvalue="Gradle.SolutionTest" />
       </list>
     </recent_temporary>
   </component>
