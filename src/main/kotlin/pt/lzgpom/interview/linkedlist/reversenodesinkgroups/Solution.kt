@@ -1,7 +1,6 @@
 package pt.lzgpom.interview.linkedlist.reversenodesinkgroups
 
 import pt.lzgpom.interview.linkedlist.ListNode
-import pt.lzgpom.interview.linkedlist.ListNode.Companion.toList
 
 class Solution {
     fun reverseKGroup(head: ListNode?, k: Int): ListNode? {
