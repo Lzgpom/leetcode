@@ -3,6 +3,9 @@ package pt.lzgpom.interview.binarytreegeneral
 import java.util.*
 
 class TreeNode(var `val`: Int, var left: TreeNode?, var right: TreeNode?) {
+
+    constructor(`val`: Int) : this(`val`, null, null)
+
     companion object {
         fun buildTree(nums: List<Int?>): TreeNode? {
             if (nums.isEmpty()) {
