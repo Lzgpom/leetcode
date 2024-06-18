@@ -1,8 +1,7 @@
 package pt.lzgpom.interview.binarytreegeneral.constructbinarytreefrompreorderandinordertraversal
 
-import org.junit.jupiter.api.Assertions.*
+import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.DynamicTest.dynamicTest
-import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.TestFactory
 import pt.lzgpom.interview.binarytreegeneral.TreeNode
 
@@ -31,20 +30,4 @@ class SolutionTest {
                 assertEquals(expected, TreeNode.treeToList(result))
             }
         }
-
-    @Test
-    fun other() {
-        val root = TreeNode(3, null, null)
-
-        val left1 = TreeNode(1, null, null)
-        root.left = left1
-
-        val right2 = TreeNode(2, null, null)
-        left1.right = right2
-
-        val right1 = TreeNode(4, null, null)
-        root.right = right1
-
-        println(TreeNode.treeToList(root))
-    }
 }
