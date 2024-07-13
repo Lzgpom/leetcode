@@ -13,7 +13,8 @@ class SolutionTest {
 
     private val examples = listOf(
         Input(2, arrayOf(intArrayOf(1, 0))) to true,
-        Input(2, arrayOf(intArrayOf(1, 0), intArrayOf(0, 1))) to false
+        Input(2, arrayOf(intArrayOf(1, 0), intArrayOf(0, 1))) to false,
+        Input(5, arrayOf(intArrayOf(1, 4), intArrayOf(2, 4), intArrayOf(3, 1), intArrayOf(3, 2))) to true,
     )
 
     @TestFactory
