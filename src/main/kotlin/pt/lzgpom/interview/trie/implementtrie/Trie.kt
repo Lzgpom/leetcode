@@ -54,7 +54,7 @@ class Trie {
 
     private class Node {
         var terminal = false
-        val children = Array<Node?>(26) {null}
+        val children = Array<Node?>(26) { null }
     }
 
     companion object {
