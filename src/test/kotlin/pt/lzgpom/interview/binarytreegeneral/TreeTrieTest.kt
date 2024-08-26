@@ -3,7 +3,7 @@ package pt.lzgpom.interview.binarytreegeneral
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Test
 
-class TreeNodeTest {
+class TreeTrieTest {
 
     @Test
     fun ensureThatBuildTreeCreatesTreeFromList() {
