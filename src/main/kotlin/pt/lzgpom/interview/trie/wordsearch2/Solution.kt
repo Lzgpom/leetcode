@@ -7,7 +7,7 @@ class Solution {
 
         for (x in board.indices) {
             for (y in board[x].indices) {
-                findWord(board, validWordsTrie, x, y, "", validWords)
+                findWord(board, validWordsTrie, x, y, validWords)
             }
         }
 
@@ -19,22 +19,16 @@ class Solution {
         trie: Trie,
         x: Int,
         y: Int,
-        currentWord: String,
         validWords: MutableSet<String>
     ) {
         val char = board[x][y]
         val charTrie = trie.getChildForChar(char) ?: return
-
-        val word = currentWord + char
-
-        if (charTrie.terminal) {
-            validWords.add(word)
-        }
+        charTrie.word?.let { validWords.add(it) }
 
         board[x][y] = '.'
 
         for ((nextX, nextY) in nextPositions(board, x, y)) {
-            findWord(board, charTrie, nextX, nextY, word, validWords)
+            findWord(board, charTrie, nextX, nextY, validWords)
         }
 
         board[x][y] = char
@@ -86,11 +80,11 @@ class Solution {
             }
         }
 
-        node.terminal = true
+        node.word = word
     }
 
     private class Trie {
-        var terminal = false
+        var word: String? = null
         var children = Array<Trie?>(26) { null }
 
         fun getChildForChar(char: Char) = children.getOrNull(char.index())
