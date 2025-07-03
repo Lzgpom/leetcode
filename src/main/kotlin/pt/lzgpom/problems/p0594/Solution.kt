@@ -5,7 +5,7 @@ class Solution {
         val numCount = HashMap<Int, Int>()
         nums.forEach { numCount.merge(it, 1, Int::plus) }
 
-        return numCount.entries
+        return numCount.entries.asSequence()
             .map {
                 val next = numCount[it.key + 1]
                 return@map if (next != null) {
